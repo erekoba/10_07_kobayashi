@@ -1,0 +1,51 @@
+
+div {
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0 0 0 20px;
+}
+#text {
+    padding: 6px 0 0px 30px;
+    font-size: 12px;
+}
+
+.fiveStar{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.fiveStar input[type='radio']{
+  display: none;
+}
+.fiveStar label{
+  position: relative;
+  padding: 10px 10px 0;
+  color: gray;
+  cursor: pointer;
+  font-size: 50px;
+}
+.fiveStar label .text{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+}
+.fiveStar label:hover,
+.fiveStar label:hover ~ label,
+.fiveStar input[type='radio']:checked ~ label{
+  color: #ffcc00;
+}
+
+        
+        
+       
+        
